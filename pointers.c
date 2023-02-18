@@ -1,12 +1,10 @@
 /*****************************************************************************
- * Filename      : main.c
+ * Filename      : pointers.c
  * Created       : Sat Feb 18 2023
  * Author        : zolodev
  * Github        : https://github.com/zolodev
  * Description   : This is a small file just to learn about C Pointers
  *                 For more information, Watch YouTube video: 
- *                 https://www.youtube.com/watch?v=2ybLD6_2gKM
- *                 and
  *                 https://www.youtube.com/watch?v=egRIkkBEttg
 *****************************************************************************/
 #include <stdio.h>
