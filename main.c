@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     int *pX = &x;   // "integer pointer named pX (p = pointer) is set to to the address of x"
 
     printf("value of x: %d\n", x);
-    printf("value of pX (memory address): %d\n", pX);
+    printf("value of pX (memory address): %p\n", pX);
 
     // We can copy the value by reference instead by value.
     // This is important when passing around big/large objects.
@@ -44,6 +44,7 @@ int main(int argc, char *argv[])
     // integer named y is set to the thing pointed to by pX" 
 
     printf("value of y: %d\n", y);
-    printf("value of &y (y points to address): %d\n", &y);
+    printf("value of &*pX (address): %p\n", &*pX);
+    printf("value of &y (y points to address): %p\n", &y);
     
 }
